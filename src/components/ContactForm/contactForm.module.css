@@ -1,0 +1,23 @@
+.contact__form {
+  border: 1px solid black;
+  width: 300px;
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contact__label {
+  margin: 0px;
+}
+
+.contact__input {
+  width: 150px;
+}
+
+.contact__input:focus {
+  outline-color: aqua;
+}
+
+.contact__btn {
+  width: 100px;
+}
